@@ -4,14 +4,15 @@
    2. Drop her logo file into /public/logo.png (see Header.jsx).
    ============================================================ */
 :root {
-  --ink: #26313f;        /* headings, primary text  */
+  --ink: #1d2b22;
+  --blue: #0048b8;        /* headings, primary text  */
   --ink-soft: #4d5866;   /* body text               */
   --paper: #fcfbf8;      /* page background         */
-  --panel: #f3f0e9;      /* alternate section bg    */
-  --brand: #2f6d66;      /* primary brand color     */
-  --brand-dark: #24544f; /* hover state             */
-  --accent: #e9a13b;     /* CTA / highlight         */
-  --line: #e3dfd6;       /* hairlines, borders      */
+  --panel: #f2f6f0;      /* alternate section bg    */
+  --brand: #005830;      /* primary brand color     */
+  --brand-dark: #00401f; /* hover state             */
+  --accent: #c01890;     /* CTA / highlight         */
+  --line: #dde5da;       /* hairlines, borders      */
 
   --max: 1080px;
   --radius: 10px;
@@ -64,7 +65,7 @@ a:focus-visible, button:focus-visible {
   min-height: 74px; gap: 1rem;
 }
 .brand-link { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; }
-.brand-logo { height: 46px; width: auto; display: block; }
+.brand-logo { height: 58px; width: auto; display: block; }
 .brand-name {
   font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 700; font-size: 1.1rem;
   color: var(--ink); line-height: 1.1;
@@ -78,10 +79,10 @@ a:focus-visible, button:focus-visible {
 }
 .nav a:hover { color: var(--brand); }
 .nav .nav-cta {
-  background: var(--accent); color: var(--ink); padding: 0.5rem 1rem;
+  background: var(--accent); color: #fff; padding: 0.5rem 1rem;
   border-radius: 999px; font-weight: 650;
 }
-.nav .nav-cta:hover { filter: brightness(0.95); color: var(--ink); }
+.nav .nav-cta:hover { filter: brightness(0.9); color: #fff; }
 
 .menu-btn { display: none; background: none; border: 1px solid var(--line); border-radius: 8px; padding: 0.45rem 0.7rem; font-size: 1rem; cursor: pointer; color: var(--ink); }
 
@@ -97,6 +98,7 @@ a:focus-visible, button:focus-visible {
 
 /* ---------- Signature: folder-tab section labels ---------- */
 .tab {
+  /* label blue from logo */
   display: inline-block;
   background: var(--panel);
   border: 1px solid var(--line);
@@ -108,7 +110,7 @@ a:focus-visible, button:focus-visible {
   font-weight: 650;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--brand);
+  color: var(--blue);
 }
 .tab-rule { border-top: 1px solid var(--line); margin-bottom: 1.6rem; }
 
@@ -121,7 +123,7 @@ section.alt { background: var(--panel); }
 .hero h1 { margin-bottom: 1.2rem; }
 .hero p.lede { font-size: 1.2rem; margin-bottom: 2rem; }
 .hero .credential {
-  color: var(--brand); font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 600;
+  color: var(--blue); font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 600;
   font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1rem;
 }
 
