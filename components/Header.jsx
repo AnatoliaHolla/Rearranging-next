@@ -26,7 +26,7 @@ export default function Header() {
     <header className="site-header">
       <div className="wrap">
         <Link href="/" className="brand-link" onClick={() => setOpen(false)}>
-          <img src="/logo.png" alt="Raegan Holladay — IEP Coach & Parent Advocate" className="brand-logo" />
+          <img src="/logo.png" alt="Raegan Holladay, IEP Coach & Parent Advocate" className="brand-logo" />
         </Link>
 
         <button

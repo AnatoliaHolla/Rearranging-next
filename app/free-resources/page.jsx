@@ -32,7 +32,7 @@ export default function FreeResources() {
             <div className="card">
               <h3>The Free IEP Starter Guide</h3>
               <p>
-                The essentials of the IEP process in plain language — what to
+                The essentials of the IEP process in plain language: what to
                 expect, what to ask, and where to start.
               </p>
               <a className="btn btn-secondary" href="#">

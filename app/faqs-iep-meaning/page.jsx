@@ -1,7 +1,7 @@
 import { SectionTab, CtaBand } from "../../components/SectionTab";
 
 export const metadata = {
-  title: "FAQs — What Is an IEP? | Raegan Holladay Advocacy",
+  title: "FAQs: What Is an IEP? | Raegan Holladay Advocacy",
   description:
     "Answers to common questions about IEPs, 504 plans, eligibility, and working with a special education advocate.",
 };
@@ -21,11 +21,11 @@ const faqs = [
   },
   {
     q: "Do I need an advocate or attorney for my IEP meeting?",
-    a: "Not always — many parents simply need preparation and a clear plan. That's exactly what Strategy Sessions and Meeting Preparation are designed for. For families in the Metro Atlanta area, limited in-person advocacy support may also be available.",
+    a: "Not always. Many parents simply need preparation and a clear plan. That's exactly what Strategy Sessions and Meeting Preparation are designed for. For families in the Metro Atlanta area, limited in-person advocacy support may also be available.",
   },
   {
     q: "What should I bring to a Strategy Session?",
-    a: "Anything you have: current IEP or 504 Plan, recent evaluations, report cards, and any school communication that concerns you. If you don't have documents yet, that's fine too — we'll start with your questions.",
+    a: "Anything you have: current IEP or 504 Plan, recent evaluations, report cards, and any school communication that concerns you. If you don't have documents yet, that's fine too. We'll start with your questions.",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function Faqs() {
 
       <CtaBand
         heading="Have a question that isn't here?"
-        body="Bring it to a Strategy Session — one focused conversation, entirely about your child."
+        body="Bring it to a Strategy Session: one focused conversation, entirely about your child."
         buttonLabel="Book Your Strategy Session"
         buttonHref="https://calendly.com/raegan-holladay/iep-strategy-session"
       />

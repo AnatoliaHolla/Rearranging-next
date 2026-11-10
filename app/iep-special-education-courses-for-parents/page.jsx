@@ -16,7 +16,7 @@ export default function Courses() {
           <p className="lede">
             Self-paced courses designed to turn the special education process
             from a foreign language into something you can navigate with
-            confidence — built from years of real advocacy experience.
+            confidence, built from years of real advocacy experience.
           </p>
         </div>
       </section>
@@ -56,7 +56,7 @@ export default function Courses() {
 
       <CtaBand
         heading="Want to be notified when courses launch?"
-        body="Join the email list and you'll be the first to know — plus get free resources for parents in the meantime."
+        body="Join the email list and you'll be the first to know, plus get free resources for parents in the meantime."
         buttonLabel="Join the Email List"
         buttonHref="/contact"
       />

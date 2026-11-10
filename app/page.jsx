@@ -18,7 +18,7 @@ export default function Home() {
           <p className="lede">
             Whether you&rsquo;re facing your first IEP meeting, struggling to
             get school support, or wondering if your child qualifies for
-            services — you don&rsquo;t have to figure it out alone.
+            services, you don&rsquo;t have to figure it out alone.
           </p>
           <div className="btn-row">
             <a
@@ -45,7 +45,7 @@ export default function Home() {
               <p style={{ marginTop: "1rem" }}>
                 You don&rsquo;t need to become a special education expert
                 overnight. Sometimes a single conversation provides the clarity
-                and direction you&rsquo;ve been looking for — many parents leave
+                and direction you&rsquo;ve been looking for. Many parents leave
                 with a clear action plan and greater confidence about their
                 next steps.
               </p>
@@ -74,7 +74,7 @@ export default function Home() {
               <h3>Strategy Sessions</h3>
               <p>
                 A focused one-on-one consultation to discuss your concerns,
-                answer questions, and develop a plan for moving forward —
+                answer questions, and develop a plan for moving forward:
                 eligibility, IEPs, 504 plans, school communication, behavior
                 and discipline, and advocacy planning.
               </p>
@@ -91,7 +91,7 @@ export default function Home() {
               <h3>Document Review</h3>
               <p>
                 Professional feedback on your child&rsquo;s educational
-                records, evaluations, IEP, or 504 Plan — identifying strengths,
+                records, evaluations, IEP, or 504 Plan, identifying strengths,
                 concerns, and areas that may warrant further attention.
               </p>
               <a
@@ -144,7 +144,7 @@ export default function Home() {
                 I&rsquo;m a Harvard Law School graduate, attorney, and parent
                 who understands that educational decisions can have a profound
                 impact on a child&rsquo;s future. For years, I have helped
-                families navigate complex legal and educational issues — so
+                families navigate complex legal and educational issues, so
                 parents can understand their options, communicate effectively
                 with schools, and advocate confidently for their children.
               </p>

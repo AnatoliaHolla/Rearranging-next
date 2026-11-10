@@ -5,7 +5,7 @@ import { SectionTab } from "../../components/SectionTab";
 
 /*
   FORM SEAM: this form currently opens the visitor's email client
-  (zero backend needed — works on day one). To upgrade it later to
+  (zero backend needed; works on day one). To upgrade it later to
   the Supabase pattern from BattingCageLand, replace handleSubmit
   with a POST to a /app/api/contact/route.js handler that inserts
   into a Supabase table. The UI won't need to change.
@@ -32,7 +32,7 @@ export default function Contact() {
           <h1>Get in touch.</h1>
           <p className="lede">
             Questions about working together, local advocacy availability in
-            Metro Atlanta, or anything else — send a message and I&rsquo;ll get
+            Metro Atlanta, or anything else. Send a message and I&rsquo;ll get
             back to you.
           </p>
         </div>

@@ -50,13 +50,13 @@ export default function About() {
               </p>
               <p style={{ marginTop: "1rem" }}>
                 I believe informed parents are powerful advocates. You
-                don&rsquo;t need to become a special education expert overnight
-                — you need clear information, a practical plan, and someone in
+                don&rsquo;t need to become a special education expert overnight.
+                You need clear information, a practical plan, and someone in
                 your corner who has seen how this process works from every
                 side.
               </p>
               {/*
-                EXPAND HERE: Raegan can add her fuller story — credentials,
+                EXPAND HERE: Raegan can add her fuller story: credentials,
                 bar admissions, her experience as a parent, and what families
                 can expect when working with her.
               */}
@@ -67,7 +67,7 @@ export default function About() {
 
       <CtaBand
         heading="Let's talk about your child's situation."
-        body="A Strategy Session is the simplest way to get started — one conversation, focused entirely on your family."
+        body="A Strategy Session is the simplest way to get started: one conversation, focused entirely on your family."
         buttonLabel="Book Your Strategy Session"
         buttonHref="https://calendly.com/raegan-holladay/iep-strategy-session"
       />

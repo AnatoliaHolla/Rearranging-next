@@ -18,13 +18,13 @@ const services = [
   },
   {
     title: "Document Review",
-    body: "Receive professional feedback on your child's educational records, evaluations, IEP, or 504 Plan. I'll help identify strengths, concerns, and areas that may warrant further attention — so you know exactly what you're looking at.",
+    body: "Receive professional feedback on your child's educational records, evaluations, IEP, or 504 Plan. I'll help identify strengths, concerns, and areas that may warrant further attention, so you know exactly what you're looking at.",
     cta: "Book Your Document Review",
     href: `${CALENDLY}/document-review`,
   },
   {
     title: "Meeting Preparation",
-    body: "Walk into your next school meeting prepared and confident. Together we'll review the agenda, identify priorities, develop questions, organize your concerns, and create a strategy for the meeting. You don't have to know all the answers — you just need a plan.",
+    body: "Walk into your next school meeting prepared and confident. Together we'll review the agenda, identify priorities, develop questions, organize your concerns, and create a strategy for the meeting. You don't have to know all the answers. You just need a plan.",
     cta: "Book Meeting Preparation",
     href: `${CALENDLY}/iep-meeting-preparation-session`,
   },
@@ -39,7 +39,7 @@ export default function WorkWithMe() {
           <h1>Practical support, matched to where you are.</h1>
           <p className="lede">
             Every family&rsquo;s situation is different. Choose the kind of
-            help that fits yours — from a single clarity-building conversation
+            help that fits yours, from a single clarity-building conversation
             to hands-on preparation for your next school meeting.
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function WorkWithMe() {
 
       <CtaBand
         heading="Not sure which option fits?"
-        body="Start with a Strategy Session — it's the best way to talk through your situation and decide on next steps together."
+        body="Start with a Strategy Session. It's the best way to talk through your situation and decide on next steps together."
         buttonLabel="Book Your Strategy Session"
         buttonHref={`${CALENDLY}/iep-strategy-session`}
       />
