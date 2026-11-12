@@ -29,7 +29,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--paper);
   color: var(--ink-soft);
-  font-family: "Source Serif 4", Georgia, serif;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.075rem;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
