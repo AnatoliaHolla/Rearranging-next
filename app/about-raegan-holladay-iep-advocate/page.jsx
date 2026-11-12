@@ -25,20 +25,17 @@ export default function About() {
         <div className="wrap">
           <div className="split">
             <div>
-              {/* Replace with Raegan's photo: /public/raegan.jpg */}
-              <div
+              <img
+                src="/raegan.jpg"
+                alt="Raegan Holladay"
                 style={{
-                  background: "var(--paper)",
-                  border: "1px solid var(--line)",
+                  width: "100%",
+                  height: "auto",
                   borderRadius: "var(--radius)",
-                  padding: "3rem 2rem",
-                  textAlign: "center",
-                  color: "var(--brand)",
-                  fontFamily: "'Bricolage Grotesque', system-ui, sans-serif",
+                  border: "1px solid var(--line)",
+                  display: "block",
                 }}
-              >
-                Photo of Raegan
-              </div>
+              />
             </div>
             <div>
               <h2>Why I do this work</h2>

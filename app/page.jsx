@@ -158,24 +158,17 @@ export default function Home() {
               </div>
             </div>
             <div>
-              {/* Replace with Raegan's photo: /public/raegan.jpg */}
-              <div
+              <img
+                src="/raegan.jpg"
+                alt="Raegan Holladay"
                 style={{
-                  background: "var(--paper)",
-                  border: "1px solid var(--line)",
+                  width: "100%",
+                  height: "auto",
                   borderRadius: "var(--radius)",
-                  padding: "2rem",
-                  textAlign: "center",
-                  color: "var(--brand)",
-                  fontFamily: "'Bricolage Grotesque', system-ui, sans-serif",
+                  border: "1px solid var(--line)",
+                  display: "block",
                 }}
-              >
-                Photo of Raegan
-                <br />
-                <small style={{ color: "var(--ink-soft)" }}>
-                  (drop raegan.jpg into /public and swap this placeholder)
-                </small>
-              </div>
+              />
             </div>
           </div>
         </div>
