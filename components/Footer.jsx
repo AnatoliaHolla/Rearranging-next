@@ -39,9 +39,9 @@ export default function Footer() {
           </div>
         </div>
         <p className="copyright">
-          Copyright © {new Date().getFullYear()} The Law Office of Raegan M.
-          King, A Limited Liability Company. This website provides general
-          information and does not constitute legal advice.
+          Copyright © {new Date().getFullYear()} Raegan Holladay Advocacy,
+          LLC. This website provides general information and does not
+          constitute legal advice.
         </p>
       </div>
     </footer>
