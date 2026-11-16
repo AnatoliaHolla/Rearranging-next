@@ -12,6 +12,9 @@ export const metadata = {
     siteName: "Raegan Holladay Advocacy",
     type: "website",
   },
+  verification: {
+    google: "Z2tIrfIHz9XcpGOFWgGLwKXkwgseR0zHiRuCA3fWKX4",
+  },
 };
 
 export default function RootLayout({ children }) {
