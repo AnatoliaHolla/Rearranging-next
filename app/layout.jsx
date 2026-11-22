@@ -7,7 +7,7 @@ export const metadata = {
   title: "IEP & Special Education Advocate | Raegan Holladay Advocacy",
   description:
     "Helping parents navigate special education with practical guidance from a Harvard-trained attorney, experienced advocate, and fellow parent.",
-  metadataBase: new URL("https://raeganking.com"),
+  metadataBase: new URL("https://raeganholladay.com"),
   openGraph: {
     siteName: "Raegan Holladay Advocacy",
     type: "website",

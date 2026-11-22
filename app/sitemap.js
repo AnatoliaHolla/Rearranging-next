@@ -1,4 +1,4 @@
-const BASE = "https://raeganking.com";
+const BASE = "https://raeganholladay.com";
 
 const routes = [
   { path: "", priority: 1.0 },
